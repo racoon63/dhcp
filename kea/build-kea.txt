@@ -1,0 +1,51 @@
+# history of docker cotainer
+
+apt update && apt install -y aptitude && aptitude search boost
+apt install -y openssl build-essentials libboost-system1.62.0 libboost1.65-all-dev libboost1.65-dev automake 
+apt install -y openssl build-essential libboost-system1.62.0 libboost1.65-all-dev libboost1.65-dev automake 
+apt install -y openssl build-essential libboost-system1.62.0 libboost1.65-all-dev libboost1.65-dev automake libtool
+apt install -y openssl build-essential libboost-system1.62.0 libboost1.65-all-dev libboost1.65-dev automake libtool pkg-config
+aptitude search postgres
+apt install -y openssl build-essential libboost-system1.62.0 libboost1.65-all-dev libboost1.65-dev automake libtool pkg-config postgresql-client
+apt install -y openssl build-essential libboost-system1.62.0 libboost1.65-all-dev libboost1.65-dev automake libtool pkg-config postgresql-client curl
+curl -o /tmp/kea-1.6.2.tar.gz https://ftp.isc.org/isc/kea/cur/kea-1.6.2.tar.gz
+ls -l
+mv kea-1.6.2.tar.gz opt
+cd opt/
+ls -l
+tar xzf kea
+tar xzf kea-1.6.2.tar.gz 
+ls -l
+cd kea-1.6.2
+ls -l
+./configure --prefix=/opt/kea --with-pgsql --with-openssl --enable-shell --with-site-packages 
+aptitude search openssl
+aptitude install openssl
+which openssl
+openssl -v
+openssl --version
+openssl version
+./configure --prefix=/opt/kea --with-pgsql --with-openssl=/usr/bin/openssl --enable-shell --with-site-packages 
+apt install -y mlocate && updatedb && locate openssl
+./configure --prefix=/opt/kea --with-pgsql --with-openssl=/usr/bin/ --enable-shell --with-site-packages 
+./configure --prefix=/opt/kea --with-pgsql --with-openssl=/usr/lib/ssl/ --enable-shell --with-site-packages 
+apt install -y openssl build-essential libboost-system1.62.0 libboost1.65-all-dev libboost1.65-dev automake libtool pkg-config postgresql-client curl libssl-dev
+./configure --prefix=/opt/kea --with-pgsql --with-openssl --enable-shell --with-site-packages 
+apt install -y openssl build-essential libboost-system1.62.0 libboost1.65-all-dev libboost1.65-dev automake libtool pkg-config postgresql-client curl libssl-dev libpq-dev
+./configure --prefix=/opt/kea --with-pgsql --with-openssl --enable-shell --with-site-packages 
+aptitude search postgres
+apt install -y openssl build-essential libboost-system1.62.0 libboost1.65-all-dev libboost1.65-dev automake libtool pkg-config postgresql-client curl libssl-dev libpq-dev postgresql-server-dev-all
+./configure --prefix=/opt/kea --with-pgsql --with-openssl --enable-shell --with-site-packages 
+apt install -y openssl build-essential libboost-system1.62.0 libboost1.65-all-dev libboost1.65-dev automake libtool pkg-config postgresql-client curl libssl-dev libpq-dev postgresql-server-dev-all liblog4cplus
+apt install -y openssl build-essential libboost-system1.62.0 libboost1.65-all-dev libboost1.65-dev automake libtool pkg-config postgresql-client curl libssl-dev libpq-dev postgresql-server-dev-all log4cplus
+aptitude search log4cplus
+apt install -y openssl build-essential libboost-system1.62.0 libboost1.65-all-dev libboost1.65-dev automake libtool pkg-config postgresql-client curl libssl-dev libpq-dev postgresql-server-dev-all liblog4cplus-dev
+./configure --prefix=/opt/kea --with-pgsql --with-openssl --enable-shell --with-site-packages 
+apt install -y openssl build-essential libboost-system1.62.0 libboost1.65-all-dev libboost1.65-dev automake libtool pkg-config postgresql-client curl libssl-dev libpq-dev postgresql-server-dev-all liblog4cplus-dev liblog4cplus-1.1-9 
+apt install -y openssl build-essential libboost-system1.62.0 libboost1.65-all-dev libboost1.65-dev automake libtool pkg-config postgresql-client curl libssl-dev libpq-dev postgresql-server-dev-all liblog4cplus-dev liblog4cplus-1.1-9 python3
+./configure --prefix=/opt/kea --with-pgsql --with-openssl
+locate site-packages
+locate dist-packages
+./configure --prefix=/opt/kea --with-pgsql --with-openssl --enable-shell --with-site-packages=/usr/lib/python3/dist-packages
+make
+history 
